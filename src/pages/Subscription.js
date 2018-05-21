@@ -223,7 +223,7 @@ class Subscription extends React.Component {
 
     createUserCall = async () => {
         let param = {email: this.state.email.value, dateOfBirth: this.state.birthday, firstname: this.state.firstname.value, lastname: this.state.lastname.value, pwd: this.state.password.value, picture: this.state.image}
-        if(!this.props.user){
+        if(!this.props.user._id){
             await this.props.createUser(param)
 
             AsyncStorage.setItem('id', this.props.user._id)
