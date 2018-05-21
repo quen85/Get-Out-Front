@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name" : "Get Out",
+    "icon": "./app-icon.png",
+    "version": "1.0.0",
+    "sdkVersion": "25.0.0",
+    "ios": {
+      "bundleIdentifier": "com.project.giraud"
+    },
+    "android": {
+      "package": "com.project.giraud",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBk1TDImc3upM0Suf5mS0ggjUvKUCgdS08"
+        }
+      }
+    },
+    "splash": {
+      "image": "./splashscreen.png",
+      "backgroundColor": "#857FCF",
+      "resizeMode": "cover"
+    }
+  }
+}
