@@ -102,7 +102,7 @@ class Profile extends React.Component {
                             <Image source={{ uri: this.props.user.picture }} style={{ width: 200, height: 200, borderRadius: 100 }} />}
                             <Title>Prénom: <Strong>{ this.props.user.firstname }</Strong></Title>
                             <Title>Nom: <Strong>{ this.props.user.lastname }</Strong></Title>
-                            <Title>Nombre d'événments de prévu: <Strong>{ this.props.events.length }</Strong></Title>
+                            <Title>Nombre d'événements de prévu: <Strong>{ this.props.events.length }</Strong></Title>
 
                             <UpdateButton onPress={() => this.navigateToSubscription()}>
                                 <TextUpdateButton>Modifier mon profil</TextUpdateButton>
